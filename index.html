@@ -8,7 +8,7 @@
 <meta name="description" content="De Gouden Klok, Franse keuken sinds 1985. Eend van Challans op de wijze van de Tour d'Argent, kreeft, zalm en vis. Reserveren: 09 222 99 00.">
 <meta name="theme-color" content="#1C0204">
 <link rel="icon" href="assets/img/klok.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/gk-stijl.css">
 </head>
 <body>
 
@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="pendule">
-      <svg class="klok" viewBox="0 0 400 400" role="img" aria-label="Gouden klok met de huidige tijd in Gent" data-klok>
+      <svg class="klok" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Gouden klok met de huidige tijd in Gent" data-klok>
   <defs>
     <linearGradient id="bezel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E2A4"/><stop offset=".35" stop-color="#C9A04B"/><stop offset=".6" stop-color="#8C6624"/><stop offset=".85" stop-color="#E4C47A"/><stop offset="1" stop-color="#9B7429"/></linearGradient>
     <radialGradient id="plaat" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#FBF5E8"/><stop offset=".7" stop-color="#EFE2C8"/><stop offset="1" stop-color="#D9C39A"/></radialGradient>
@@ -55,12 +55,6 @@
   <g class="wijzer sec" data-sec><line x1="200" y1="228" x2="200" y2="58" stroke="#B8892F" stroke-width="1.6"/><circle cx="200" cy="80" r="4" fill="#B8892F"/></g>
   <circle cx="200" cy="200" r="9" fill="url(#bezel)" stroke="#3C0609" stroke-width="1.5"/>
 </svg>
-      <div class="slinger" aria-hidden="true"><svg viewBox="0 0 100 300">
-  <defs><radialGradient id="bol" cx=".35" cy=".35" r=".7"><stop offset="0" stop-color="#F6E2A4"/><stop offset=".55" stop-color="#C9A04B"/><stop offset="1" stop-color="#7A561C"/></radialGradient></defs>
-  <rect x="47" y="0" width="6" height="215" fill="#C9A04B"/><rect x="49" y="0" width="1.5" height="215" fill="#F6E2A4"/>
-  <circle cx="50" cy="250" r="44" fill="url(#bol)" stroke="#8C6624" stroke-width="2"/>
-  <circle cx="50" cy="250" r="30" fill="none" stroke="#F6E2A4" stroke-width="1" opacity=".7"/>
-</svg></div>
       <p class="tijd-tekst">In Gent is het nu <b data-tijd>&nbsp;</b></p>
     </div>
   </div>
@@ -84,19 +78,18 @@
 </section>
 
 <nav class="wrap tafel" aria-label="Op deze pagina">
-  <a href="#chef"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="30"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>De chef</a>
-  <a href="#kaart"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="60"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>De kaart</a>
-  <a href="#eend"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="90"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Eend</a>
-  <a href="#huis"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="120"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Het huis</a>
-  <a href="#ontvangen"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="150"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Ontvangen</a>
-  <a href="#contact"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="180"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Contact</a>
+  <a href="#chef"><span>I</span>De chef</a>
+  <a href="#kaart"><span>II</span>De kaart</a>
+  <a href="#eend"><span>III</span>Eend</a>
+  <a href="#huis"><span>IV</span>Het huis</a>
+  <a href="#ontvangen"><span>V</span>Ontvangen</a>
+  <a href="#contact"><span>VI</span>Contact</a>
 </nav>
 
 <main>
   <section class="wrap sectie" id="chef" aria-labelledby="chef-titel">
     <div class="titel wacht">
-      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="30"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
-      <span class="nr">I uur &middot; Culinair</span>
+      <span class="nr">I &middot; Culinair</span>
       <h2 id="chef-titel" class="goud">Marino Raffaele</h2>
     </div>
     <div class="chef">
@@ -124,8 +117,7 @@
   <section class="licht sectie" id="kaart" aria-labelledby="kaart-titel">
     <div class="wrap">
       <div class="titel wacht">
-        <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="60"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
-        <span class="nr">II uur &middot; De kaart</span>
+        <span class="nr">II &middot; De kaart</span>
         <h2 id="kaart-titel">&Agrave; la carte</h2>
       </div>
 
@@ -226,8 +218,7 @@
 
   <section class="wrap sectie eend" id="eend" aria-labelledby="eend-titel">
     <div class="titel wacht">
-      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="90"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
-      <span class="nr">III uur &middot; De specialiteit</span>
+      <span class="nr">III &middot; De specialiteit</span>
       <h2 id="eend-titel" class="goud">Eend van Challans</h2>
     </div>
     <div class="eend-raster">
@@ -249,8 +240,7 @@
   <section class="licht sectie" id="huis" aria-labelledby="huis-titel">
     <div class="wrap">
       <div class="titel wacht">
-        <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="120"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
-        <span class="nr">IV uur &middot; Het huis aan de Koning Albertlaan</span>
+        <span class="nr">IV &middot; Het huis aan de Koning Albertlaan</span>
         <h2 id="huis-titel">Een herenhuis uit 1926</h2>
       </div>
       <div class="huis-tekst">
@@ -276,8 +266,7 @@
 
   <section class="wrap sectie" id="ontvangen" aria-labelledby="ontvangen-titel">
     <div class="titel wacht">
-      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="150"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
-      <span class="nr">V uur &middot; Info</span>
+      <span class="nr">V &middot; Info</span>
       <h2 id="ontvangen-titel" class="goud">Ontvangen</h2>
     </div>
     <div class="extras">
@@ -302,8 +291,7 @@
 
   <section class="wrap sectie" id="contact" aria-labelledby="contact-titel">
     <div class="titel wacht">
-      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="180"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
-      <span class="nr">VI uur &middot; Contact</span>
+      <span class="nr">VI &middot; Contact</span>
       <h2 id="contact-titel" class="goud">Een afspraak maken</h2>
     </div>
     <div class="contact">
@@ -343,6 +331,6 @@
   <a href="mailto:info@degoudenklok.be">Mail ons</a>
 </div>
 
-<script src="assets/script.js"></script>
+<script src="assets/gk-script.js"></script>
 </body>
 </html>
