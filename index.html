@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>De Gouden Klok</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="De Gouden Klok, Frans restaurant van meesterkok Marino Raffaele sinds 1985. Eend van Challans, kreeft, zalm en vis. Enkel op reservatie: 09 222 99 00.">
-<meta name="theme-color" content="#4A0508">
+<meta name="description" content="De Gouden Klok, Franse keuken sinds 1985. Eend van Challans op de wijze van de Tour d'Argent, kreeft, zalm en vis. Reserveren: 09 222 99 00.">
+<meta name="theme-color" content="#1C0204">
 <link rel="icon" href="assets/img/klok.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -14,7 +14,7 @@
 
 <div class="lijn">
   <div class="wrap">
-    <span>Enkel op reservatie</span>
+    <span>Sinds 1985 &middot; steeds op voorhand een afspraak maken</span>
     <span class="rechts">
       <a href="tel:+3292229900">09 222 99 00</a>
       <a href="tel:+32486599987">0486 59 99 87</a>
@@ -27,282 +27,295 @@
   <div class="wrap">
     <div class="kop-tekst">
       <p class="sinds">Sinds 1985</p>
-      <h1><small>Restaurant</small>De Gouden Klok</h1>
-      <p class="intro">Franse keuken van meesterkok Marino Raffaele. Eend zoals in de Tour d'Argent, kreeft op vijf en zalm op negen manieren, en een kelder vol Bordeaux en Bourgogne.</p>
+      <h1 class="goud"><small>Restaurant</small>De Gouden Klok</h1>
+      <p class="intro">Wie al eens heeft getafeld in De Gouden Klok weet het: Marino Raffaele is een bijzonder getalenteerde en gepassioneerde meesterkok die de Franse keuken alle eer aandoet doorheen de vier seizoenen.</p>
       <div class="acties">
-        <a class="knop" href="tel:+3292229900">Reserveer: 09 222 99 00</a>
-        <a class="tekstlink" href="#kaart">Bekijk de kaart</a>
-      </div>
-      <div class="klok-hoek">
-        <svg class="klok" viewBox="0 0 120 120" role="img" aria-label="Gouden klok met de huidige tijd in Gent" data-klok>
-          <circle cx="60" cy="60" r="56" fill="#2E0204" stroke="#D9A441" stroke-width="3"/>
-          <circle cx="60" cy="60" r="49" fill="none" stroke="#9C7024" stroke-width="1"/>
-          <g stroke="#D9A441" stroke-linecap="round">
-            <line x1="60" y1="13" x2="60" y2="21" stroke-width="3"/>
-            <line x1="107" y1="60" x2="99" y2="60" stroke-width="3"/>
-            <line x1="60" y1="107" x2="60" y2="99" stroke-width="3"/>
-            <line x1="13" y1="60" x2="21" y2="60" stroke-width="3"/>
-            <g stroke-width="1.5">
-              <line x1="83.5" y1="19.3" x2="81" y2="23.6"/><line x1="100.7" y1="36.5" x2="96.4" y2="39"/>
-              <line x1="100.7" y1="83.5" x2="96.4" y2="81"/><line x1="83.5" y1="100.7" x2="81" y2="96.4"/>
-              <line x1="36.5" y1="100.7" x2="39" y2="96.4"/><line x1="19.3" y1="83.5" x2="23.6" y2="81"/>
-              <line x1="19.3" y1="36.5" x2="23.6" y2="39"/><line x1="36.5" y1="19.3" x2="39" y2="23.6"/>
-            </g>
-          </g>
-          <line class="wijzer" data-uur x1="60" y1="60" x2="60" y2="34" stroke="#F0CD82" stroke-width="4" stroke-linecap="round"/>
-          <line class="wijzer" data-min x1="60" y1="60" x2="60" y2="22" stroke="#F0CD82" stroke-width="2.5" stroke-linecap="round"/>
-          <line class="wijzer sec" data-sec x1="60" y1="68" x2="60" y2="18" stroke="#D9A441" stroke-width="1"/>
-          <circle cx="60" cy="60" r="4" fill="#D9A441"/>
-        </svg>
-        <p>In Gent is het nu <span data-tijd>&nbsp;</span>.<br>Bel op voorhand, we ontvangen je enkel op afspraak.</p>
+        <a class="knop" href="tel:+3292229900">Afspraak: 09 222 99 00</a>
+        <a class="tekstlink" href="#kaart">Naar de kaart</a>
       </div>
     </div>
-    <figure class="boog"><img src="assets/img/voordeur-luifel.jpg" alt="De verlichte voordeur met smeedijzer en de luifel met 'Restaurant De Gouden Klok'"></figure>
+    <div class="pendule">
+      <svg class="klok" viewBox="0 0 400 400" role="img" aria-label="Gouden klok met de huidige tijd in Gent" data-klok>
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E2A4"/><stop offset=".35" stop-color="#C9A04B"/><stop offset=".6" stop-color="#8C6624"/><stop offset=".85" stop-color="#E4C47A"/><stop offset="1" stop-color="#9B7429"/></linearGradient>
+    <radialGradient id="plaat" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#FBF5E8"/><stop offset=".7" stop-color="#EFE2C8"/><stop offset="1" stop-color="#D9C39A"/></radialGradient>
+    <path id="ringpad" d="M200,200 m-166,0 a166,166 0 1,1 332,0 a166,166 0 1,1 -332,0"/>
+  </defs>
+  <circle cx="200" cy="200" r="198" fill="url(#bezel)"/>
+  <circle cx="200" cy="200" r="186" fill="#1C0204"/>
+  <g class="ring-tekst"><text font-family="Gloock, Georgia, serif" font-size="15" letter-spacing="6" fill="#C9A04B"><textPath href="#ringpad">DE GOUDEN KLOK &#183; SINDS 1985 &#183; FRANSE KEUKEN &#183; DE GOUDEN KLOK &#183; SINDS 1985 &#183; FRANSE KEUKEN &#183;</textPath></text></g>
+  <circle cx="200" cy="200" r="154" fill="url(#bezel)"/>
+  <circle cx="200" cy="200" r="150" fill="url(#plaat)"/>
+  <circle cx="200" cy="200" r="78" fill="none" stroke="#C9A04B" stroke-width="1"/>
+  <circle cx="200" cy="200" r="72" fill="none" stroke="#C9A04B" stroke-width=".6" stroke-dasharray="2 4"/>
+  <g stroke="#3C0609" stroke-linecap="round"><line class="streep" style="animation-delay:0ms" x1="200.0" y1="53.0" x2="200.0" y2="72.0" stroke-width="2.4"/><line class="streep" style="animation-delay:18ms" x1="215.4" y1="53.8" x2="214.2" y2="64.7" stroke-width="1"/><line class="streep" style="animation-delay:36ms" x1="230.6" y1="56.2" x2="228.3" y2="67.0" stroke-width="1"/><line class="streep" style="animation-delay:54ms" x1="245.4" y1="60.2" x2="242.0" y2="70.7" stroke-width="1"/><line class="streep" style="animation-delay:72ms" x1="259.8" y1="65.7" x2="255.3" y2="75.8" stroke-width="1"/><line class="streep" style="animation-delay:90ms" x1="273.5" y1="72.7" x2="264.0" y2="89.1" stroke-width="2.4"/><line class="streep" style="animation-delay:108ms" x1="286.4" y1="81.1" x2="279.9" y2="90.0" stroke-width="1"/><line class="streep" style="animation-delay:126ms" x1="298.4" y1="90.8" x2="291.0" y2="98.9" stroke-width="1"/><line class="streep" style="animation-delay:144ms" x1="309.2" y1="101.6" x2="301.1" y2="109.0" stroke-width="1"/><line class="streep" style="animation-delay:162ms" x1="318.9" y1="113.6" x2="310.0" y2="120.1" stroke-width="1"/><line class="streep" style="animation-delay:180ms" x1="327.3" y1="126.5" x2="310.9" y2="136.0" stroke-width="2.4"/><line class="streep" style="animation-delay:198ms" x1="334.3" y1="140.2" x2="324.2" y2="144.7" stroke-width="1"/><line class="streep" style="animation-delay:216ms" x1="339.8" y1="154.6" x2="329.3" y2="158.0" stroke-width="1"/><line class="streep" style="animation-delay:234ms" x1="343.8" y1="169.4" x2="333.0" y2="171.7" stroke-width="1"/><line class="streep" style="animation-delay:252ms" x1="346.2" y1="184.6" x2="335.3" y2="185.8" stroke-width="1"/><line class="streep" style="animation-delay:270ms" x1="347.0" y1="200.0" x2="328.0" y2="200.0" stroke-width="2.4"/><line class="streep" style="animation-delay:288ms" x1="346.2" y1="215.4" x2="335.3" y2="214.2" stroke-width="1"/><line class="streep" style="animation-delay:306ms" x1="343.8" y1="230.6" x2="333.0" y2="228.3" stroke-width="1"/><line class="streep" style="animation-delay:324ms" x1="339.8" y1="245.4" x2="329.3" y2="242.0" stroke-width="1"/><line class="streep" style="animation-delay:342ms" x1="334.3" y1="259.8" x2="324.2" y2="255.3" stroke-width="1"/><line class="streep" style="animation-delay:360ms" x1="327.3" y1="273.5" x2="310.9" y2="264.0" stroke-width="2.4"/><line class="streep" style="animation-delay:378ms" x1="318.9" y1="286.4" x2="310.0" y2="279.9" stroke-width="1"/><line class="streep" style="animation-delay:396ms" x1="309.2" y1="298.4" x2="301.1" y2="291.0" stroke-width="1"/><line class="streep" style="animation-delay:414ms" x1="298.4" y1="309.2" x2="291.0" y2="301.1" stroke-width="1"/><line class="streep" style="animation-delay:432ms" x1="286.4" y1="318.9" x2="279.9" y2="310.0" stroke-width="1"/><line class="streep" style="animation-delay:450ms" x1="273.5" y1="327.3" x2="264.0" y2="310.9" stroke-width="2.4"/><line class="streep" style="animation-delay:468ms" x1="259.8" y1="334.3" x2="255.3" y2="324.2" stroke-width="1"/><line class="streep" style="animation-delay:486ms" x1="245.4" y1="339.8" x2="242.0" y2="329.3" stroke-width="1"/><line class="streep" style="animation-delay:504ms" x1="230.6" y1="343.8" x2="228.3" y2="333.0" stroke-width="1"/><line class="streep" style="animation-delay:522ms" x1="215.4" y1="346.2" x2="214.2" y2="335.3" stroke-width="1"/><line class="streep" style="animation-delay:540ms" x1="200.0" y1="347.0" x2="200.0" y2="328.0" stroke-width="2.4"/><line class="streep" style="animation-delay:558ms" x1="184.6" y1="346.2" x2="185.8" y2="335.3" stroke-width="1"/><line class="streep" style="animation-delay:576ms" x1="169.4" y1="343.8" x2="171.7" y2="333.0" stroke-width="1"/><line class="streep" style="animation-delay:594ms" x1="154.6" y1="339.8" x2="158.0" y2="329.3" stroke-width="1"/><line class="streep" style="animation-delay:612ms" x1="140.2" y1="334.3" x2="144.7" y2="324.2" stroke-width="1"/><line class="streep" style="animation-delay:630ms" x1="126.5" y1="327.3" x2="136.0" y2="310.9" stroke-width="2.4"/><line class="streep" style="animation-delay:648ms" x1="113.6" y1="318.9" x2="120.1" y2="310.0" stroke-width="1"/><line class="streep" style="animation-delay:666ms" x1="101.6" y1="309.2" x2="109.0" y2="301.1" stroke-width="1"/><line class="streep" style="animation-delay:684ms" x1="90.8" y1="298.4" x2="98.9" y2="291.0" stroke-width="1"/><line class="streep" style="animation-delay:702ms" x1="81.1" y1="286.4" x2="90.0" y2="279.9" stroke-width="1"/><line class="streep" style="animation-delay:720ms" x1="72.7" y1="273.5" x2="89.1" y2="264.0" stroke-width="2.4"/><line class="streep" style="animation-delay:738ms" x1="65.7" y1="259.8" x2="75.8" y2="255.3" stroke-width="1"/><line class="streep" style="animation-delay:756ms" x1="60.2" y1="245.4" x2="70.7" y2="242.0" stroke-width="1"/><line class="streep" style="animation-delay:774ms" x1="56.2" y1="230.6" x2="67.0" y2="228.3" stroke-width="1"/><line class="streep" style="animation-delay:792ms" x1="53.8" y1="215.4" x2="64.7" y2="214.2" stroke-width="1"/><line class="streep" style="animation-delay:810ms" x1="53.0" y1="200.0" x2="72.0" y2="200.0" stroke-width="2.4"/><line class="streep" style="animation-delay:828ms" x1="53.8" y1="184.6" x2="64.7" y2="185.8" stroke-width="1"/><line class="streep" style="animation-delay:846ms" x1="56.2" y1="169.4" x2="67.0" y2="171.7" stroke-width="1"/><line class="streep" style="animation-delay:864ms" x1="60.2" y1="154.6" x2="70.7" y2="158.0" stroke-width="1"/><line class="streep" style="animation-delay:882ms" x1="65.7" y1="140.2" x2="75.8" y2="144.7" stroke-width="1"/><line class="streep" style="animation-delay:900ms" x1="72.7" y1="126.5" x2="89.1" y2="136.0" stroke-width="2.4"/><line class="streep" style="animation-delay:918ms" x1="81.1" y1="113.6" x2="90.0" y2="120.1" stroke-width="1"/><line class="streep" style="animation-delay:936ms" x1="90.8" y1="101.6" x2="98.9" y2="109.0" stroke-width="1"/><line class="streep" style="animation-delay:954ms" x1="101.6" y1="90.8" x2="109.0" y2="98.9" stroke-width="1"/><line class="streep" style="animation-delay:972ms" x1="113.6" y1="81.1" x2="120.1" y2="90.0" stroke-width="1"/><line class="streep" style="animation-delay:990ms" x1="126.5" y1="72.7" x2="136.0" y2="89.1" stroke-width="2.4"/><line class="streep" style="animation-delay:1008ms" x1="140.2" y1="65.7" x2="144.7" y2="75.8" stroke-width="1"/><line class="streep" style="animation-delay:1026ms" x1="154.6" y1="60.2" x2="158.0" y2="70.7" stroke-width="1"/><line class="streep" style="animation-delay:1044ms" x1="169.4" y1="56.2" x2="171.7" y2="67.0" stroke-width="1"/><line class="streep" style="animation-delay:1062ms" x1="184.6" y1="53.8" x2="185.8" y2="64.7" stroke-width="1"/></g>
+  <g font-family="Gloock, Georgia, serif" font-size="25" fill="#3C0609"><text class="cijfer" style="animation-delay:1100ms" x="200.0" y="92.0" text-anchor="middle" dominant-baseline="central" transform="rotate(0 200.0 92.0)">XII</text><text class="cijfer" style="animation-delay:1170ms" x="254.0" y="106.5" text-anchor="middle" dominant-baseline="central" transform="rotate(30 254.0 106.5)">I</text><text class="cijfer" style="animation-delay:1240ms" x="293.5" y="146.0" text-anchor="middle" dominant-baseline="central" transform="rotate(60 293.5 146.0)">II</text><text class="cijfer" style="animation-delay:1310ms" x="308.0" y="200.0" text-anchor="middle" dominant-baseline="central" transform="rotate(90 308.0 200.0)">III</text><text class="cijfer" style="animation-delay:1380ms" x="293.5" y="254.0" text-anchor="middle" dominant-baseline="central" transform="rotate(120 293.5 254.0)">IV</text><text class="cijfer" style="animation-delay:1450ms" x="254.0" y="293.5" text-anchor="middle" dominant-baseline="central" transform="rotate(150 254.0 293.5)">V</text><text class="cijfer" style="animation-delay:1520ms" x="200.0" y="308.0" text-anchor="middle" dominant-baseline="central" transform="rotate(180 200.0 308.0)">VI</text><text class="cijfer" style="animation-delay:1590ms" x="146.0" y="293.5" text-anchor="middle" dominant-baseline="central" transform="rotate(210 146.0 293.5)">VII</text><text class="cijfer" style="animation-delay:1660ms" x="106.5" y="254.0" text-anchor="middle" dominant-baseline="central" transform="rotate(240 106.5 254.0)">VIII</text><text class="cijfer" style="animation-delay:1730ms" x="92.0" y="200.0" text-anchor="middle" dominant-baseline="central" transform="rotate(270 92.0 200.0)">IX</text><text class="cijfer" style="animation-delay:1800ms" x="106.5" y="146.0" text-anchor="middle" dominant-baseline="central" transform="rotate(300 106.5 146.0)">X</text><text class="cijfer" style="animation-delay:1870ms" x="146.0" y="106.5" text-anchor="middle" dominant-baseline="central" transform="rotate(330 146.0 106.5)">XI</text></g>
+  <g class="wijzer" data-uur><path d="M200 214 L195 200 L198 150 L193 140 L200 112 L207 140 L202 150 L205 200 Z" fill="#5E0D13"/><circle cx="200" cy="146" r="6" fill="none" stroke="#5E0D13" stroke-width="3"/></g>
+  <g class="wijzer" data-min><path d="M200 220 L196.5 200 L198.5 120 L200 66 L201.5 120 L203.5 200 Z" fill="#3C0609"/></g>
+  <g class="wijzer sec" data-sec><line x1="200" y1="228" x2="200" y2="58" stroke="#B8892F" stroke-width="1.6"/><circle cx="200" cy="80" r="4" fill="#B8892F"/></g>
+  <circle cx="200" cy="200" r="9" fill="url(#bezel)" stroke="#3C0609" stroke-width="1.5"/>
+</svg>
+      <div class="slinger" aria-hidden="true"><svg viewBox="0 0 100 300">
+  <defs><radialGradient id="bol" cx=".35" cy=".35" r=".7"><stop offset="0" stop-color="#F6E2A4"/><stop offset=".55" stop-color="#C9A04B"/><stop offset="1" stop-color="#7A561C"/></radialGradient></defs>
+  <rect x="47" y="0" width="6" height="215" fill="#C9A04B"/><rect x="49" y="0" width="1.5" height="215" fill="#F6E2A4"/>
+  <circle cx="50" cy="250" r="44" fill="url(#bol)" stroke="#8C6624" stroke-width="2"/>
+  <circle cx="50" cy="250" r="30" fill="none" stroke="#F6E2A4" stroke-width="1" opacity=".7"/>
+</svg></div>
+      <p class="tijd-tekst">In Gent is het nu <b data-tijd>&nbsp;</b></p>
+    </div>
   </div>
 </header>
 
-<aside class="melding" aria-labelledby="verhuis-titel">
+<section class="brief" aria-labelledby="brief-titel">
   <div class="wrap">
-    <b id="verhuis-titel">Niet meer aan de Koning Albertlaan</b>
-    <p>Sinds 1 januari 2023 zitten we niet meer in het herenhuis aan de Koning Albertlaan 31. We ontvangen onze gasten nu op een andere plek, vlak bij Gent, en altijd op afspraak. Bel of mail ons voor het adres. <span class="invullen">[Nieuw adres invullen]</span></p>
+    <div class="brief-kop">
+      <span class="datum">Vanaf 1 januari 2023</span>
+      <h2 id="brief-titel">Aan de gasten van De Gouden Klok</h2>
+    </div>
+    <div class="brief-tekst">
+      <p>Al bijna veertig jaar zorgen wij met heel veel genoegen voor een hartelijke ontvangst in ons restaurant; voor een verzorgde keuken, voor smakelijke gerechten aan tafel en voor een goede wijnkaart.</p>
+      <p>Als uw chefkok en uw gastvrouw hebben wij om verschillende redenen moeten besluiten dat de tijd gekomen is om onze zeer geslaagde bedrijfsactiviteit in de Albertlaan te beëindigen, op 1 januari 2023.</p>
+      <p>Voor de toekomst hebben we een mooi voorstel: we kunnen u als gast aan tafel op een andere, zeer dicht bij Gent gelegen locatie ontvangen, en vragen van uw kant dat u steeds op voorhand een afspraak maakt om ons werk voor dit nieuwe opzet op een andere schaal even goed als vroeger te kunnen voorbereiden.</p>
+      <p>Wij danken u als trouwe klant in het verleden en bieden u dezelfde dienstverlening en hetzelfde vakmanschap aan voor de toekomst.</p>
+      <p class="handtekening">Chef Alberto en gastvrouw Irma</p>
+      <p>Voor alle info: <a href="tel:+3292229900">09 222 99 00</a> of <a href="tel:+32486599987">0486 59 99 87</a>. Nieuwe locatie: <span class="invullen">[adres invullen]</span></p>
+    </div>
   </div>
-</aside>
+</section>
 
 <nav class="wrap tafel" aria-label="Op deze pagina">
-  <a href="#chef">De chef</a><span>&#9670;</span>
-  <a href="#kaart">De kaart</a><span>&#9670;</span>
-  <a href="#menus">Menu's</a><span>&#9670;</span>
-  <a href="#eend">Eend</a><span>&#9670;</span>
-  <a href="#huis">Het huis</a><span>&#9670;</span>
-  <a href="#feest">Feesten</a><span>&#9670;</span>
-  <a href="#reserveren">Reserveren</a>
+  <a href="#chef"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="30"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>De chef</a>
+  <a href="#kaart"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="60"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>De kaart</a>
+  <a href="#eend"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="90"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Eend</a>
+  <a href="#huis"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="120"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Het huis</a>
+  <a href="#ontvangen"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="150"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Ontvangen</a>
+  <a href="#contact"><svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="180"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>Contact</a>
 </nav>
 
 <main>
   <section class="wrap sectie" id="chef" aria-labelledby="chef-titel">
-    <div class="titel">
-      <span class="nr">I &middot; De chef</span>
-      <h2 id="chef-titel">Marino Raffaele</h2>
+    <div class="titel wacht">
+      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="30"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
+      <span class="nr">I uur &middot; Culinair</span>
+      <h2 id="chef-titel" class="goud">Marino Raffaele</h2>
     </div>
     <div class="chef">
       <div class="chef-tekst">
-        <p>Al sinds 1985 kookt Marino Frans, met wat elk seizoen brengt. Kreeft en zalm doet hij op een handvol manieren, vis komt met de saus die erbij hoort, en de eend van Challans is zijn specialiteit.</p>
+        <p>Al meer dan 30 jaar, sinds 1985, zorgen wij voor een hartelijke ontvangst van al onze gasten.</p>
         <ul class="titels">
           <li>Lid van de Orde der 33 Meesterkoks van België</li>
-          <li>Compagnon de la Toque Blanche, bij de Patrons Cuisiniers</li>
-          <li>Ridder in de erewacht van de stad Keulen</li>
-          <li>Specialist van de eend op de manier van de Tour d'Argent in Parijs</li>
+          <li>Compagnon de la Toque Blanche, Patrons Cuisiniers</li>
+          <li>Ridder van de erewacht van de stad Keulen</li>
+          <li>Dé specialist van eend op de wijze van de Tour d'Argent te Parijs</li>
         </ul>
       </div>
-      <div class="citaat">
-        <span class="citaat-kop">Augustus 1989</span>
-        Claude Terrail, de man achter La Tour d'Argent, schreef een opdracht voor Marino. Hij zag in hem een van de groten van later.
+      <div class="opdracht">
+        <span class="label">Een opdracht</span>
+        &ldquo;Pour Marino Raffaele, un futur grand de la restauration.&rdquo;
+        <span class="wie">Claude Terrail, augustus 1989</span>
       </div>
+    </div>
+    <blockquote class="citaat-groot">
+      <p class="goud">&ldquo;Diegene die het restaurant gecreëerd heeft kan niet anders dan een geniaal man en een diepzinnig observator geweest zijn.&rdquo;</p>
+      <cite>Jean Anthelme Brillat-Savarin (1755 - 1826)</cite>
+    </blockquote>
+  </section>
+
+  <section class="licht sectie" id="kaart" aria-labelledby="kaart-titel">
+    <div class="wrap">
+      <div class="titel wacht">
+        <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="60"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
+        <span class="nr">II uur &middot; De kaart</span>
+        <h2 id="kaart-titel">&Agrave; la carte</h2>
+      </div>
+
+      <div class="kaart">
+        <div class="kaart-kop">
+          <span class="klein">De Gouden Klok</span>
+          <h3>Menu</h3>
+        </div>
+        <div class="gangen" data-gangen>
+          <div class="gang">
+            <h4>Voorgerechten</h4>
+            <ul>
+              <li>Pastei van ganzenlever met oude port</li>
+              <li>Gemarineerde zeebaars</li>
+              <li>Roerei op 3 verschillende wijzen</li>
+              <li>Lauwe salade van langoestines en kalfszwezerik</li>
+              <li>Gepocheerde mousse van snoekbaars met kreeftensaus</li>
+              <li>Mousseline 'Omble Chevalier' (forel) met champagne</li>
+              <li>Gegratineerde Zeelandse oesters met champagne</li>
+              <li>Lauwe salade van kreeft</li>
+            </ul>
+          </div>
+          <div class="gang">
+            <h4>Kreeftbereidingen</h4>
+            <ul>
+              <li>Gegrilde kreeft met botersaus en verse pasta</li>
+              <li>Versneden kreeft op een bedje van groenten</li>
+              <li>Heldere soep van kreeft met verse kruiden</li>
+              <li>Gebakken kreeft met currysaus</li>
+              <li>Stoofpotje van kreeft</li>
+            </ul>
+          </div>
+          <div class="gang">
+            <h4>Zalmbereidingen</h4>
+            <ul>
+              <li>Huisgerookte Schotse zalm</li>
+              <li>Tartaar van zalm</li>
+              <li>Gestoomde zalmmoot met zurkel</li>
+              <li>Gebakken zalm met Bordelaisesaus</li>
+              <li>Zalmtournedos met gestoomde groenten</li>
+              <li>Salade van rauwe zalm</li>
+              <li>Zalm en asperges in blanke botersaus</li>
+              <li>Soufflé van zalm</li>
+              <li>In de oven gebakken zalmmoot in korst</li>
+            </ul>
+          </div>
+          <div class="gang">
+            <h4>Visgerechten</h4>
+            <ul>
+              <li>Gepocheerde zeebaars met kreeftensaus</li>
+              <li>Tarbot bereid met Gentse mosterd</li>
+              <li>Tarbot in een netje met verse tuinkruiden</li>
+              <li>Tongrolletjes met kreeftensaus</li>
+              <li>Rogfilet met kappers</li>
+              <li>Gegrilde sint-pietersvis met choronsaus</li>
+              <li>Zeeduivel met ratatouille</li>
+              <li>Zeeduivel op een bedje van gestoofde groenten</li>
+              <li>Gegrilde zeeduivel met witloof en truffelolie</li>
+            </ul>
+          </div>
+          <div class="gang">
+            <h4>Vleesgerechten</h4>
+            <ul>
+              <li>Combinatie van kalfszwezerik en kreeft</li>
+              <li>Krokant gebakken lamsbout met verse kruiden</li>
+              <li>Lamsbout bereid op de wijze van de chef</li>
+              <li>Filet van rund met Bordelaisesaus</li>
+              <li>Kalfsniertjes bereid met bruin bier</li>
+              <li>Kalfszwezerik met fijne groenten</li>
+              <li>Eendenborst van Challans met groenteboeket</li>
+            </ul>
+          </div>
+          <div class="gang">
+            <h4>Eend van Challans</h4>
+            <ul>
+              <li>Eend "Mazarine" (met sinaasappel)</li>
+              <li>Eend bereid volgens het seizoen</li>
+              <li>Eend met gember</li>
+              <li>Eend "Claude Foussier" (met gekarameliseerde appel)</li>
+              <li>Eend "Marco Polo" (saus met 3 pepers)</li>
+              <li>Eend "Daniel Sickles" (met pistachenoten en appel)</li>
+            </ul>
+          </div>
+        </div>
+        <p class="kaart-voet">Prijzen inclusief btw: <span class="invullen">[prijzen invullen]</span> &middot; Allergenen: <span class="invullen">[allergenen per gerecht invullen]</span></p>
+        <div class="printlinks"><a href="https://degoudenklok.be/Menu%20De%20Gouden%20Klok.pdf" target="_blank" rel="noopener">Menu als pdf</a></div>
+      </div>
+
+      <div class="formules">
+        <div class="formule"><span class="aantal goud">3</span><h3>Lunchmenu</h3><p>3 gangen, zonder of met aangepaste wijnen</p></div>
+        <div class="formule"><span class="aantal goud">4</span><h3>Dagmenu</h3><p>4 gangen, zonder of met aangepaste wijnen</p></div>
+        <div class="formule"><span class="aantal goud">5</span><h3>Degustatiemenu</h3><p>5 gangen, zonder of met aangepaste wijnen</p></div>
+        <div class="formule"><span class="aantal goud">1u</span><h3>Quick Lunch</h3><p>Enkel 's middags. Hapjes, hoofdgerecht en dessert, binnen een uur opgediend.</p></div>
+      </div>
+      <p class="dieet">Vegetariërs, veganisten, lactosevrij, glutenvrij: welkom!</p>
     </div>
   </section>
 
-  <section class="wrap sectie" id="kaart" aria-labelledby="kaart-titel">
-    <div class="titel">
-      <span class="nr">II &middot; De kaart</span>
-      <h2 id="kaart-titel">&Agrave; la carte</h2>
-      <p>Vegetariërs, veganisten, lactosevrij of glutenvrij: je bent welkom. Zeg het bij het reserveren.</p>
+  <section class="wrap sectie eend" id="eend" aria-labelledby="eend-titel">
+    <div class="titel wacht">
+      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="90"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
+      <span class="nr">III uur &middot; De specialiteit</span>
+      <h2 id="eend-titel" class="goud">Eend van Challans</h2>
     </div>
-
-    <div class="kaart">
-      <div class="kaart-kop">
-        <span class="klein">De Gouden Klok</span>
-        <h3>La carte</h3>
-        <div class="sier" aria-hidden="true"><i></i></div>
-      </div>
-      <div class="gangen">
-        <div class="gang">
-          <h4>Voorgerechten</h4>
-          <ul>
-            <li>Pastei van ganzenlever met oude port</li>
-            <li>Gemarineerde zeebaars</li>
-            <li>Roerei op drie manieren</li>
-            <li>Warme salade van langoustines en kalfszwezerik</li>
-            <li>Gepocheerde mousse van snoekbaars met kreeftensaus</li>
-            <li>Mousseline van omble chevalier met champagne</li>
-            <li>Gegratineerde Zeeuwse oesters met champagne</li>
-            <li>Warme salade van kreeft</li>
-          </ul>
-        </div>
-        <div class="gang">
-          <h4>Kreeft</h4>
-          <ul>
-            <li>Gegrilde kreeft met botersaus en verse pasta</li>
-            <li>Versneden kreeft op een bedje van groenten</li>
-            <li>Heldere kreeftensoep met verse kruiden</li>
-            <li>Gebakken kreeft met currysaus</li>
-            <li>Stoofpotje van kreeft</li>
-          </ul>
-        </div>
-        <div class="gang">
-          <h4>Zalm</h4>
-          <ul>
-            <li>Schotse zalm, in huis gerookt</li>
-            <li>Tartaar van zalm</li>
-            <li>Gestoomde zalmfilet met zuring</li>
-            <li>Gebakken zalm met bordelaisesaus</li>
-            <li>Tournedos van zalm met gestoomde groenten</li>
-            <li>Salade van rauwe zalm</li>
-            <li>Zalm en asperges met witte botersaus</li>
-            <li>Soufflé van zalm</li>
-            <li>Zalmfilet in korstdeeg uit de oven</li>
-          </ul>
-        </div>
-        <div class="gang">
-          <h4>Vis</h4>
-          <ul>
-            <li>Gepocheerde zeebaars met kreeftensaus</li>
-            <li>Tarbot met Gentse mosterd</li>
-            <li>Tarbot in een net met verse tuinkruiden</li>
-            <li>Rolletjes van tong met kreeftensaus</li>
-            <li>Rogfilet met kappertjes</li>
-            <li>Gegrilde Sint-Pietersvis met sauce choron</li>
-            <li>Zeeduivel met ratatouille</li>
-            <li>Zeeduivel op gestoofde groenten</li>
-            <li>Gegrilde zeeduivel met witloof en truffelolie</li>
-          </ul>
-        </div>
-        <div class="gang">
-          <h4>Vlees</h4>
-          <ul>
-            <li>Kalfszwezerik met kreeft</li>
-            <li>Krokant gebraden lamsschenkel met verse kruiden</li>
-            <li>Lamsschenkel zoals de chef hem maakt</li>
-            <li>Ossenhaas met bordelaisesaus</li>
-            <li>Kalfsniertjes met bruin bier</li>
-            <li>Kalfszwezerik met fijne groenten</li>
-            <li>Eendenborst van Challans met een boeket groenten</li>
-          </ul>
-        </div>
-        <div class="gang">
-          <h4>Eend van Challans <small>zie verder</small></h4>
-          <ul>
-            <li><b>Mazarine</b>, met sinaasappel</li>
-            <li><b>Volgens het seizoen</b></li>
-            <li><b>Met gember</b></li>
-            <li><b>Claude Foussier</b>, met gekaramelliseerde appel</li>
-            <li><b>Marco Polo</b>, met drie pepers</li>
-            <li><b>Daniel Sickles</b>, met pistache en appel</li>
-          </ul>
-        </div>
-      </div>
-      <p class="kaart-voet">Prijzen in euro, btw inbegrepen. <span class="invullen">[Prijzen per gerecht invullen]</span><br>Wil je weten welke allergenen in een gerecht zitten? Vraag het ons, we zeggen het je per gerecht.</p>
-    </div>
-
-    <div class="formules" id="menus">
-      <div class="formule">
-        <span class="gangen-aantal">1 u</span>
-        <h3>Quick Lunch</h3>
-        <p>Enkel 's middags. Hapjes, hoofdgerecht en dessert, binnen het uur op tafel.</p>
-        <p class="prijs"><span class="invullen">&euro; ..</span></p>
-      </div>
-      <div class="formule">
-        <span class="gangen-aantal">3</span>
-        <h3>Lunchmenu</h3>
-        <p>Drie gangen, met of zonder aangepaste wijnen.</p>
-        <p class="prijs"><span class="invullen">&euro; .. / &euro; ..</span></p>
-      </div>
-      <div class="formule">
-        <span class="gangen-aantal">4</span>
-        <h3>Dagmenu</h3>
-        <p>Vier gangen, met of zonder aangepaste wijnen.</p>
-        <p class="prijs"><span class="invullen">&euro; .. / &euro; ..</span></p>
-      </div>
-      <div class="formule">
-        <span class="gangen-aantal">5</span>
-        <h3>Degustatiemenu</h3>
-        <p>Vijf gangen, met of zonder aangepaste wijnen.</p>
-        <p class="prijs"><span class="invullen">&euro; .. / &euro; ..</span></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="eend sectie" id="eend" aria-labelledby="eend-titel">
-    <div class="wrap eend-raster">
-      <div>
-        <div class="titel">
-          <span class="nr">III &middot; De specialiteit</span>
-        </div>
-        <h2 class="groot" id="eend-titel">Eend van Challans</h2>
-      </div>
+    <div class="eend-raster">
+      <p class="groot goud">Op de wijze van de Tour d'Argent</p>
       <div class="eend-tekst">
-        <p>Challans, in de Vendée, is in Frankrijk beroemd om zijn eenden. Marino bereidt ze op de manier van La Tour d'Argent in Parijs, het huis waar eend al meer dan honderd jaar het paradepaardje is.</p>
+        <p>Marino Raffaele is dé specialist van eend op de wijze van de Tour d'Argent te Parijs.</p>
         <ul class="eend-lijst">
           <li><b>Mazarine</b><span>met sinaasappel</span></li>
-          <li><b>Claude Foussier</b><span>met gekaramelliseerde appel</span></li>
-          <li><b>Marco Polo</b><span>met een saus van drie pepers</span></li>
-          <li><b>Daniel Sickles</b><span>met pistache en appel</span></li>
-          <li><b>Met gember</b><span>voor wie het wat pittiger wil</span></li>
-          <li><b>Volgens het seizoen</b><span>vraag wat er nu op de kaart staat</span></li>
+          <li><b>Claude Foussier</b><span>met gekarameliseerde appel</span></li>
+          <li><b>Marco Polo</b><span>saus met 3 pepers</span></li>
+          <li><b>Daniel Sickles</b><span>met pistachenoten en appel</span></li>
+          <li><b>Met gember</b></li>
+          <li><b>Volgens het seizoen</b></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section class="wrap sectie" id="huis" aria-labelledby="huis-titel">
-    <div class="titel">
-      <span class="nr">IV &middot; Het huis</span>
-      <h2 id="huis-titel">Een herenhuis uit 1926</h2>
-      <p>Bijna veertig jaar ontvingen we onze gasten in dit art-nouveauhuis aan de Koning Albertlaan, met glasramen in de winterserre en een tuin achteraan. <span class="invullen">[Foto's en beschrijving van de nieuwe plek invullen]</span></p>
-    </div>
-    <div class="huis">
+  <section class="licht sectie" id="huis" aria-labelledby="huis-titel">
+    <div class="wrap">
+      <div class="titel wacht">
+        <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="120"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
+        <span class="nr">IV uur &middot; Het huis aan de Koning Albertlaan</span>
+        <h2 id="huis-titel">Een herenhuis uit 1926</h2>
+      </div>
+      <div class="huis-tekst">
+        <p>Hij heeft dit unieke herenhuis uit 1926 in de Art Nouveaustijl weten om te toveren tot een uiterst gezellig restaurant, ideaal voor zowel een tête à tête als familiebijeenkomsten, recepties en zakendiners.</p>
+        <p>Het zomerterras in de ruime tuin biedt een oase van rust waar u heerlijk van de meest verfijnde gerechten kan genieten. Met het winterterras blijft de aansluiting bij het groen van de tuin verzekerd.</p>
+      </div>
       <div class="huis-fotos">
-        <figure class="boog"><img src="assets/img/glasramen-winterterras.jpg" alt="Gedekte tafel voor hoge art-nouveau glasramen met gouden lood"><figcaption>Het winterterras</figcaption></figure>
-        <figure class="vierkant"><img src="assets/img/zomerterras-tuin.jpg" alt="Gedekte tafels met witte tafellakens in de tuin, tussen hagen en lavendel"><figcaption>Het zomerterras</figcaption></figure>
-        <figure class="vierkant"><img src="assets/img/zomerterras-parasols.jpg" alt="Tafels onder witte parasols op het gras in de tuin"><figcaption>De tuin</figcaption></figure>
+        <figure class="raam foto-kader"><img src="assets/img/glasramen-winterterras.jpg" alt="Gedekte tafel voor hoge art-nouveau glasramen met gouden lood"></figure>
+        <figure class="lijst foto-kader"><img src="assets/img/voordeur-luifel.jpg" alt="De verlichte voordeur met smeedijzer en de luifel met 'Restaurant De Gouden Klok'"></figure>
+        <figure class="lijst foto-kader"><img src="assets/img/zomerterras-tuin.jpg" alt="Gedekte tafels met witte tafellakens in de tuin, tussen hagen en lavendel"></figure>
+        <p class="onderschrift">Het winterterras, de voordeur en het zomerterras aan de Koning Albertlaan 31. Foto's van de nieuwe locatie: <span class="invullen">[invullen]</span></p>
       </div>
       <div class="cijfers">
-        <div><b>60</b><span>gasten aan tafel</span></div>
-        <div><b>100</b><span>gasten op een receptie</span></div>
-        <div><b>250</b><span>op het zomer- en winterterras</span></div>
-        <div><b>2</b><span>zalen en een aparte restaurantzaal</span></div>
-        <div><b>25</b><span>in de vergaderzaal</span></div>
-        <div><b>1926</b><span>bouwjaar van het herenhuis</span></div>
+        <div><b data-tel="60">60</b><span>personen aan tafel</span></div>
+        <div><b data-tel="100">100</b><span>personen op een receptie</span></div>
+        <div><b data-tel="250">250</b><span>op zomer- en winterterras, voor recepties</span></div>
+        <div><b data-tel="2">2</b><span>zalen en een aparte restaurantzaal</span></div>
+        <div><b data-tel="25">25</b><span>personen in de vergaderzaal</span></div>
+        <div><b data-tel="1926">1926</b><span>bouwjaar van het herenhuis</span></div>
       </div>
     </div>
   </section>
 
-  <section class="wrap sectie" id="feest" aria-labelledby="feest-titel">
-    <div class="titel">
-      <span class="nr">V &middot; Voor elke gelegenheid</span>
-      <h2 id="feest-titel">Feesten en meer</h2>
+  <section class="wrap sectie" id="ontvangen" aria-labelledby="ontvangen-titel">
+    <div class="titel wacht">
+      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="150"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
+      <span class="nr">V uur &middot; Info</span>
+      <h2 id="ontvangen-titel" class="goud">Ontvangen</h2>
     </div>
     <div class="extras">
       <div class="extra">
-        <h3>Recepties en familiefeesten</h3>
-        <p>Een tête-à-tête, een familiefeest, een receptie of een zakendiner. Vertel ons wat je wil vieren en met hoeveel je bent, dan stellen we samen een menu op.</p>
+        <h3 class="goud">Traiteur</h3>
+        <p>Onze traiteurdienst staat het hele jaar door, ook gedurende de feestdagen, te uwer beschikking.</p>
       </div>
       <div class="extra">
-        <h3>Traiteur</h3>
-        <p>Liever thuis eten? Onze traiteurdienst werkt het hele jaar door, ook tijdens de feestdagen.</p>
+        <h3 class="goud">De huispianist</h3>
+        <p>De huispianist kan door u geboekt worden via <a href="mailto:info@livepiano.be">info@livepiano.be</a>. Hij zal graag met u afspreken voor een gedroomde muzikale begeleiding op de vleugelpiano. <a href="http://www.livepiano.be" target="_blank" rel="noopener">livepiano.be</a></p>
       </div>
       <div class="extra">
-        <h3>Een pianist aan de vleugel</h3>
-        <p>Huispianist Jan Huylebroeck speelt op afspraak aan de vleugelpiano. Boek hem via <a href="mailto:info@livepiano.be">info@livepiano.be</a> of <a href="http://www.livepiano.be" target="_blank" rel="noopener">livepiano.be</a>.</p>
+        <h3 class="goud">De wijnkelder</h3>
+        <p>In de wijnkelder liggen de mooie Bordeaux- en Bourgognewijnen, het statige herenhuis waardig.</p>
       </div>
       <div class="extra">
-        <h3>De wijnkelder</h3>
-        <p>In de kelder liggen vooral Bordeaux en Bourgogne. Bij elk menu kan je kiezen voor aangepaste wijnen.</p>
+        <h3 class="goud">Betalen</h3>
+        <p>Visa, Mastercard en American Express.</p>
       </div>
     </div>
   </section>
 
-  <section class="wrap sectie" id="reserveren" aria-labelledby="reserveer-titel">
-    <div class="reserveer">
-      <div class="reserveer-tekst">
-        <h2 id="reserveer-titel">Reserveren</h2>
-        <p>We ontvangen je enkel op afspraak. Bel of mail, dan spreken we een dag en uur af en geven we je het adres.</p>
-        <p class="betalen">Je betaalt met Visa, Mastercard of American Express.</p>
+  <section class="wrap sectie" id="contact" aria-labelledby="contact-titel">
+    <div class="titel wacht">
+      <svg class="uurklok" viewBox="0 0 64 64" aria-hidden="true" data-uurklok="180"><circle cx="32" cy="32" r="31" fill="#C9A04B"/><circle cx="32" cy="32" r="28" fill="#EFE2C8"/><g stroke="#3C0609" stroke-width="2" stroke-linecap="round"><line x1="32.0" y1="6.0" x2="32.0" y2="10.0"/><line x1="45.0" y1="9.5" x2="43.0" y2="12.9"/><line x1="54.5" y1="19.0" x2="51.1" y2="21.0"/><line x1="58.0" y1="32.0" x2="54.0" y2="32.0"/><line x1="54.5" y1="45.0" x2="51.1" y2="43.0"/><line x1="45.0" y1="54.5" x2="43.0" y2="51.1"/><line x1="32.0" y1="58.0" x2="32.0" y2="54.0"/><line x1="19.0" y1="54.5" x2="21.0" y2="51.1"/><line x1="9.5" y1="45.0" x2="12.9" y2="43.0"/><line x1="6.0" y1="32.0" x2="10.0" y2="32.0"/><line x1="9.5" y1="19.0" x2="12.9" y2="21.0"/><line x1="19.0" y1="9.5" x2="21.0" y2="12.9"/></g><g class="wijzer"><line x1="32" y1="32" x2="32" y2="13" stroke="#5E0D13" stroke-width="3" stroke-linecap="round"/></g><line x1="32" y1="32" x2="32" y2="10" stroke="#3C0609" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#C9A04B" stroke="#3C0609"/></svg>
+      <span class="nr">VI uur &middot; Contact</span>
+      <h2 id="contact-titel" class="goud">Een afspraak maken</h2>
+    </div>
+    <div class="contact">
+      <div class="contact-tekst">
+        <p>We ontvangen u als gast aan tafel op een andere, zeer dicht bij Gent gelegen locatie, en vragen dat u steeds op voorhand een afspraak maakt.</p>
+        <p>Adres: <span class="invullen">[nieuwe locatie invullen]</span></p>
+        <div class="kaarten" aria-label="Betaalkaarten"><span>Visa</span><span>Mastercard</span><span>American Express</span></div>
       </div>
       <div class="nummers">
-        <a href="tel:+3292229900">09 222 99 00<small>restaurant</small></a>
-        <a href="tel:+32486599987">0486 59 99 87<small>gsm</small></a>
-        <a href="mailto:info@degoudenklok.be">info@degoudenklok.be<small>mail</small></a>
-        <p class="betalen">Adres: <span class="invullen">[nieuw adres invullen]</span><br>Parking: <span class="invullen">[parkeerinfo invullen]</span></p>
+        <a href="tel:+3292229900"><small>Telefoon</small>09 222 99 00</a>
+        <a href="tel:+32486599987"><small>Gsm</small>0486 59 99 87</a>
+        <a href="mailto:info@degoudenklok.be"><small>E-mail</small>info@degoudenklok.be</a>
       </div>
     </div>
   </section>
@@ -310,7 +323,7 @@
 
 <footer class="voet">
   <div class="wrap">
-    <p class="voet-naam">De Gouden Klok</p>
+    <p class="voet-naam goud">De Gouden Klok</p>
     <div>
       <p><span class="invullen">[Bedrijfsnaam en rechtsvorm]</span>, <span class="invullen">[adres maatschappelijke zetel]</span></p>
       <p>Ondernemingsnummer en btw <span class="invullen">[BE 0...]</span>, RPR <span class="invullen">[rechtbank]</span></p>
@@ -326,7 +339,7 @@
 </footer>
 
 <div class="belbalk">
-  <a href="tel:+3292229900">Bel om te reserveren</a>
+  <a href="tel:+3292229900">Bel 09 222 99 00</a>
   <a href="mailto:info@degoudenklok.be">Mail ons</a>
 </div>
 
